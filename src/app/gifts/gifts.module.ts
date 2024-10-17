@@ -5,10 +5,12 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
 
 
 
+
 @NgModule({
   declarations: [
     HomePageComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+   
   ],
   imports: [
     CommonModule
