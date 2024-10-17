@@ -6,24 +6,11 @@ import { GiftsModule } from './gifts/gifts.module';
 
 import { AppComponent } from './app.component';
 
-
-
-
-
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    GiftsModule,
-    SharedModule
-  ],
-  
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, GiftsModule, SharedModule],
+
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
